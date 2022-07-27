@@ -143,6 +143,7 @@ body {
     .hero .right-headline {
         margin-top: 50px;
     }
+    
 }
 /*----------------------- service section ----------------------*/
 .serveice-section {
@@ -265,7 +266,7 @@ body {
     }
     .service-stats .right .card {
         background-color: var(--bg-dark-light-2);
-        width: 12rem;
+        width: 10rem;
         height: 120px;
         display: flex;
         flex-direction: column;
