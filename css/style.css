@@ -18,6 +18,7 @@ body {
     background-color: var(--bg-dark);
     font-family: "Montserrat", sans-serif;
     color: var(--white);
+    overflow-x: hidden;
 }
 
 .container {
@@ -29,6 +30,7 @@ body {
     justify-content: space-between;
     height: 15vh;
     align-items: center;
+    overflow-x: auto;
 }
 .navbar .logo-container img {
     width: 100px;
@@ -42,6 +44,19 @@ body {
     font-size: 13px;
     font-weight: 500;
 }
+@media only screen and (max-width: 1045px) {
+    .navbar .list {
+        gap: 40px;
+        margin-top: 5px;
+    }
+    .navbar .logo-container {
+        margin-right: 50px;
+    }
+    .navbar .list li:last-child {
+        width: 100px;
+    }
+}
+
 
 /*---------------------- hero section --------------------*/
 .hero {
